@@ -1,0 +1,18 @@
+Git Hub Commands
+
+git log - This shows the history of commits for a repository
+git status - Shows the status of a directory being worked on which includes the staged, unstaged untracked files 
+git clone - Creates a copy of the remote repository on the local machine
+git add - Adds a change in the working directory to the staging area, letting Git know which updates will be included in the next commit
+git push origin [branch name] - This pushes the commits done locally to the remote repository such as GitHub
+git pull origin [branch-name] - This is used to download content from a remote repository and immediately update the current local branch by merging the fetched changes
+git branch - Lists all the local branches in the Git repository and highlights the current branch with an asterisk (*). It can also be used to create and manage branches using additional options such as [branch-name] to create a branch or -d to delete one. Branching allows developers to work on new features or fixes independently without affecting the main branch until the changes are merged.
+git checkout [branch-name] - Used to switch between existing branches in a Git repository 
+git checkout -b [branch-name] - Creates a new branch and immediately switches to it
+git merge [branch-name] - Used to combine changes from one branch into another.
+git fetch - Downloads updates from a remote repository but does not merge them into the local branch automatically
+git reset - Used to undo changes by moving the current branch back to an earlier commit. It has some optional modes such as --soft (keeps changes staged), --mixed (unstages changes), and --hard (discards all changes).
+git config - Used to set or change configuration settings for how Git behaves such as the name appearing in commits
+git init -  Creates a new, empty Git repository in the project folder.
+
+
